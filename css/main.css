@@ -165,12 +165,13 @@ main {
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
-    margin: auto;
-    border-radius: 50%;
     width: 150px;
     height: 150px;
+    margin: auto;
+    background: url("../img/portrait.jpg");
     background-size: cover;
-    border: #eece1a 3px solid; }
+    border-radius: 50%;
+    border: solid 3px #eece1a; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.1rem; }
